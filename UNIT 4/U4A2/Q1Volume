@@ -1,0 +1,7 @@
+print("Volume Calculator for Rectangular Prism\n")
+
+hight = int(input('Please enter a number for hight: \n'))
+width = int(input('Please enter another number for width: \n'))
+length = int(input('Please enter one last number for length: \n'))
+
+print('The output of', hight, 'and', width, 'and', length, 'is' '\nVolume = ' + str(hight * width * length))
