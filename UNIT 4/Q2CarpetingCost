@@ -1,0 +1,4 @@
+hight = int(input('Please enter a number for hight: \n'))
+width = int(input('Please enter a number for width: \n'))
+totalCost = hight * width * 2.25
+print('The dimentions of your carpet is', hight, 'and', width, '\nTherfore your carpet costs:\n''$' + str( totalCost ), 'CA')
